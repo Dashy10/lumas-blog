@@ -4,7 +4,4 @@ title: About
 permalink: /about/
 ---
 
-I'm Dashiell.
-
-* A list item
-* Another list item
+I'm Dashiell Lumas, a full-stack web developer based in Washington Heights, NYC.
