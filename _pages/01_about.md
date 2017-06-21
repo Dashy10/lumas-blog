@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-About content goes here.
+I'm Dashiell.
 
 * A list item
 * Another list item
