@@ -65,15 +65,14 @@ a:visited {
 
 a:hover {
 	color: $link-hover-color;
-	text-decoration: underline;
 }
 
 header {
 	background: $header;
 	padding: 0 15px;
 	text-align: center;
-	margin: 50px 0 50px;
-	height: 50vh;
+	margin: 50px 0;
+	height: 40vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -148,9 +147,13 @@ aside {
 footer {
 	text-align: center;
 	padding: 40px;
+	background-color: $main;
+	color: $header;
 }
+
 footer p {
 	margin: 0 auto;
+	color: $header;
 }
 
 .page-title {
@@ -248,7 +251,15 @@ footer p {
 }
 
 .portfolio-image {
-	margin: 4%;
+	// margin: 4%;
 	height: auto;
 	max-width: 100%;
+}
+
+.portfolio-image:hover {
+	cursor: pointer;
+	opacity: .6;
+}
+.col-xs{
+	padding: 2%;
 }
