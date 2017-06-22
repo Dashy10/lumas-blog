@@ -258,8 +258,30 @@ footer p {
 
 .portfolio-image:hover {
 	cursor: pointer;
-	opacity: .6;
+	opacity: 0.6;
 }
-.col-xs{
+
+.col-xs {
 	padding: 2%;
+	text-align: center;
+}
+
+.portfolio-description {
+	margin-bottom: 1%;
+}
+
+.github-link {
+	padding: .5%;
+	border: 2px solid $header;
+	color: $main;
+}
+
+.github-link:hover {
+	transition: 1s;
+	background: $header;
+	cursor: pointer;
+}
+
+.github-link a {
+	text-decoration: none;
 }
