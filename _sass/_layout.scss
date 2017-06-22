@@ -124,6 +124,7 @@ aside {
 			li {
 				float: left;
 				position: relative;
+				// font-size: 2.4vh;
 
 				a {
 					text-decoration: none;
@@ -165,6 +166,7 @@ footer p {
 }
 
 .page-title {
+	font-size: 3.8vh;
 	text-align: center;
 	color: $main;
 }
