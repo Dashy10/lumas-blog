@@ -289,6 +289,21 @@ footer p {
 	border: 2px solid $header;
 	color: $main;
 }
+#resume-button {
+	padding: 0.5%;
+	border: 2px solid $header;
+	color: $main;
+
+}
+#resume-button a {
+	text-decoration: none;
+}
+
+#resume-button:hover {
+	transition: 1s;
+	background: $header;
+	cursor: pointer;
+}
 
 .github-link:hover {
 	transition: 1s;
