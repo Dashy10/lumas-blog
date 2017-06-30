@@ -1,17 +1,41 @@
-* {
-	margin: 0;
+// RESPONSIVE TYPOGRAPHY
+html {
+	font-size: 24px;
+	font-weight: 100;
+	line-height: 1.5;
+}
+@media (max-width: 900px) {
+	html {
+		font-size: 20px;
+	}
+}
+@media (max-width: 500px) {
+	html {
+		font-size: 14px;
+	}
 }
 
-h1 {
-	// font-size: 5.9vw;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+p,
+ul {
+	margin-top: 0;
+	margin-bottom: 1rem;
 }
 
-h2 {
-	// font-size: 3.0vh;
-}
-
-p {
-	// font-size: 3.3vmin;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: 0.5rem;
+	line-height: 1.1;
 }
 
 body,
@@ -39,7 +63,7 @@ body {
 	margin: 0;
 	color: $font-color;
 	font-family: $font-style;
-	font-size: 1.1em;
+	// font-size: 1.1em;
 	line-height: 1.6;
 	-webkit-font-smoothing: antialiased;
 }
@@ -55,8 +79,7 @@ h3 {
 
 h1 {
 	color: $main;
-	font-size: 2.5em;
-
+	// font-size: 2.5em;
 	a,
 	a:visited {
 		text-decoration: none;
@@ -65,7 +88,7 @@ h1 {
 }
 
 h2 {
-	font-size: 2em;
+	// font-size: 2em;
 }
 
 a,
@@ -169,7 +192,7 @@ footer p {
 }
 
 .page-title {
-	font-size: 3.8vh;
+	// font-size: 3.8vh;
 	text-align: center;
 	color: $main;
 }
@@ -289,12 +312,13 @@ footer p {
 	border: 2px solid $header;
 	color: $main;
 }
+
 #resume-button {
 	padding: 0.5%;
 	border: 2px solid $header;
 	color: $main;
 }
-// blah blah blah
+
 #resume-button a {
 	text-decoration: none;
 }
