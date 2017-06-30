@@ -4,7 +4,6 @@ layout: default
 
 
 <h1 class='page-title'>Tutorials & Code Snippets</h1>
-<!-- <h1 class='page-title'>Coming Soon.</h4> -->
 {% for post in site.posts %}
 		<time>{{ post.date | date: "%b %-d, %Y" }}</time>
 		<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
