@@ -17,7 +17,7 @@ title: Dashiell Lumas
 email: dashiell.lumas@gmail.com
 description: >
   Dashiell Lumas personal website.
-baseurl: "/lumas-blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://dashielllumas.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dashielllumas
 github_username:  Dashy10
